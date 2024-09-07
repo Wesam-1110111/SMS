@@ -11,9 +11,16 @@ import OOP_2
 import OOP_3
 from colors import Colors
 
+class Colors:
+    green='G'
+    end='e'
+    blue='B'
+    red='R'
+    yellow='Y'
+
 
 def clear():
-    os.system('cls')
+    pass
 
 
 def welcome_mass():  # print : welcome to the SMS -> (school management system)
@@ -257,8 +264,7 @@ def main():
 
                                 # <--   <--   get born year of teacher object  <--
                                 elif user_in == '2':
-                                    print(f"Born year: {
-                                          OOP_3.t1.get_born_year()}.")
+                                    print(f"Born year: {OOP_3.t1.get_born_year()}.")
 
                                 # <--   <--   get salary of teacher object  <--
                                 elif user_in == '3':
@@ -270,13 +276,11 @@ def main():
 
                                 # <--   <--   get address of teacher object  <--
                                 elif user_in == '5':
-                                    print(f"Address: {
-                                          OOP_3.t1.get_address()}.")
+                                    print(f"Address: {OOP_3.t1.get_address()}.")
 
                                 # <--   <--   get phone No. of teacher object  <--
                                 elif user_in == '6':
-                                    print(f"Phone no: {
-                                          OOP_3.t1.get_phone_number()}.")
+                                    print(f"Phone no: {OOP_3.t1.get_phone_number()}.")
 
                                 # <--   <--   get age of teacher object  <--
                                 elif user_in == '7':
@@ -288,8 +292,7 @@ def main():
 
                                 # <--   <--   get id of teacher object  <--
                                 elif user_in == '9':
-                                    print(f"Teacher ID: {
-                                          OOP_3.Teacher.teacher_id}.")
+                                    print(f"Teacher ID: {OOP_3.Teacher.teacher_id}.")
 
                                 # <--   <--   exit from get menu  <--
                                 elif user_in == '0':
@@ -379,8 +382,7 @@ def main():
 
                                 # <--   <--   get born year of teacher object  <--
                                 elif user_in == '2':
-                                    print(f"Born year: {
-                                          OOP_3.t2.get_born_year()}.")
+                                    print(f"Born year: {OOP_3.t2.get_born_year()}.")
 
                                 # <--   <--   get salary of teacher object  <--
                                 elif user_in == '3':
@@ -392,13 +394,11 @@ def main():
 
                                 # <--   <--   get address of teacher object  <--
                                 elif user_in == '5':
-                                    print(f"Address: {
-                                          OOP_3.t2.get_address()}.")
+                                    print(f"Address: {OOP_3.t2.get_address()}.")
 
                                 # <--   <--   get phone No. of teacher object  <--
                                 elif user_in == '6':
-                                    print(f"Phone no: {
-                                          OOP_3.t2.get_phone_number()}.")
+                                    print(f"Phone no: {OOP_3.t2.get_phone_number()}.")
 
                                 # <--   <--   get age of teacher object  <--
                                 elif user_in == '7':
@@ -410,8 +410,7 @@ def main():
 
                                 # <--   <--   get id of teacher object  <--
                                 elif user_in == '9':
-                                    print(f"Teacher ID: {
-                                          OOP_3.Teacher.teacher_id}.")
+                                    print(f"Teacher ID: {OOP_3.Teacher.teacher_id}.")
 
                                 # <--   <--   exit from get menu  <--
                                 elif user_in == '0':
@@ -512,8 +511,7 @@ def main():
 
                                 # <--   <--   get born year of 1st student object  <--
                                 elif user_in == '2':
-                                    print(f"Born year: {
-                                          OOP_2.s1.get_born_year()}.")
+                                    print(f"Born year: {OOP_2.s1.get_born_year()}.")
 
                                 # <--   <--   get grade of 1st student object  <--
                                 elif user_in == '3':
@@ -525,13 +523,11 @@ def main():
 
                                 # <--   <--   get address of 1st student object  <--
                                 elif user_in == '5':
-                                    print(f"Address: {
-                                          OOP_2.s1.get_address()}.")
+                                    print(f"Address: {OOP_2.s1.get_address()}.")
 
                                 # <--   <--   get phone no. of 1st student object  <--
                                 elif user_in == '6':
-                                    print(f"Phone no: {
-                                          OOP_2.s1.get_phone_number()}.")
+                                    print(f"Phone no: {OOP_2.s1.get_phone_number()}.")
 
                                 # <--   <--   get age of 1st student object  <--
                                 elif user_in == '7':
@@ -539,13 +535,11 @@ def main():
 
                                 # <--   <--   get info. of 1st student object  <--
                                 elif user_in == '8':
-                                    print(f"Student info: {
-                                          OOP_2.s1.get_student_info()}.")
+                                    print(f"Student info: {OOP_2.s1.get_student_info()}.")
 
                                 # <--   <--   get id of 1st student object  <--
                                 elif user_in == '9':
-                                    print(f"Student ID: {
-                                          OOP_2.Student.student_id}.")
+                                    print(f"Student ID: {OOP_2.Student.student_id}.")
 
                                 # <--   <--   exit from 1st student object get menu <--
                                 elif user_in == '0':
@@ -557,8 +551,7 @@ def main():
 
                         # <--   <--   3. print info. of 1st student object  <--
                         elif user_in == '3':
-                            print(f"Student info: {
-                                  OOP_2.s1.get_student_info()}.")
+                            print(f"Student info: {OOP_2.s1.get_student_info()}.")
 
                         # <--   <--   0. exit from 1st student object  <--
                         elif user_in == '0':
@@ -636,8 +629,7 @@ def main():
 
                                 # <--   <--   get born year of 2ed student object <--
                                 elif user_in == '2':
-                                    print(f"Born year: {
-                                          OOP_2.s2.get_born_year()}.")
+                                    print(f"Born year: {OOP_2.s2.get_born_year()}.")
 
                                 # <--   <--   get grade of 2ed student object  <--
                                 elif user_in == '3':
@@ -649,13 +641,11 @@ def main():
 
                                 # <--   <--   get address of 2ed student object <--
                                 elif user_in == '5':
-                                    print(f"Address: {
-                                          OOP_2.s2.get_address()}.")
+                                    print(f"Address: {OOP_2.s2.get_address()}.")
 
                                 # <--   <--   get phone no. of 2ed student object <--
                                 elif user_in == '6':
-                                    print(f"Phone no: {
-                                          OOP_2.s2.get_phone_number()}.")
+                                    print(f"Phone no: {OOP_2.s2.get_phone_number()}.")
 
                                 # <--   <--   get age of 2ed student object  <--
                                 elif user_in == '7':
@@ -663,13 +653,11 @@ def main():
 
                                 # <--   <--   get info. of 2ed student object  <--
                                 elif user_in == '8':
-                                    print(f"Student info: {
-                                          OOP_2.s2.get_student_info()}.")
+                                    print(f"Student info: {OOP_2.s2.get_student_info()}.")
 
                                 # <--   <--   get id of 2ed student object  <--
                                 elif user_in == '9':
-                                    print(f"Student ID: {
-                                          OOP_2.Student.student_id}.")
+                                    print(f"Student ID: {OOP_2.Student.student_id}.")
 
                                 # <--   <--   exit from 2ed student object get menu  <--
                                 elif user_in == '0':
@@ -713,6 +701,3 @@ def main():
 '''  here we go  '''
 
 main()
-# clear()
-
-# print("Happey Birthday")
