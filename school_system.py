@@ -9,7 +9,7 @@
 import os
 import OOP_2
 import OOP_3
-from colors import Colors
+#from colors import Colors
 
 class Colors:
     green='G'
