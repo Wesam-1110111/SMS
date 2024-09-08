@@ -12,11 +12,11 @@ import OOP_3
 #from colors import Colors
 
 class Colors:
-    green='G'
-    end='e'
-    blue='B'
-    red='R'
-    yellow='Y'
+    green=''
+    end=''
+    blue=''
+    red=''
+    yellow=''
 
 
 def clear():
